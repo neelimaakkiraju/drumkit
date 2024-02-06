@@ -10,7 +10,7 @@ for (var i = 0; i < selectDrums; i++){
         animationBtn(buttonHtml)
     });
 }
-document.addEventListener("keypress",function(event){
+document.addEventListener("keydown",function(event){
     makeSound(event.key);
 
     animationBtn(event.key)
